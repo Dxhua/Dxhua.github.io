@@ -1,13 +1,13 @@
 # Site settings
 title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+SEOTitle: 丁小华的博客 | Dxhua Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: dxhua1996@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "Dxhua, Dxhua Blog, 丁小华的博客, dingxiaohua, 丁小华, iOS, Apple, iPhone"
+url: "http://Dxhua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Dxhua/Dxhua.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +18,12 @@ sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
+# weibo_username:     dingxiaohua
+zhihu_username:     Joshua Ding
+github_username:    dingxiaohua
 facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+jianshu_username:   Joshua
+#twitter_username:   dingxiaohua
 
 
 
@@ -56,7 +56,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-disqus_username: qiubaiying
+disqus_username: dingxiaohua
 
 # 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
 # Duoshuo settings
@@ -94,14 +94,14 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Dxhua",
+        href: ""
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书·Dxhua",
+        href: "http://www.jianshu.com/users/0eb7be937e75/timeline"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "CSDN",
+        href: "http://my.csdn.net/?ref=toolbar_logo"
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
