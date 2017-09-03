@@ -4,7 +4,7 @@ SEOTitle: 丁小华的博客 | Dxhua Blog
 header-img: img/post-bg-desk.jpg
 email: dxhua1996@qq.com
 description: "My blog"
-keyword: "Dxhua, Dxhua Blog, 丁小华的博客, dingxiaohua, 丁小华, iOS, Apple, iPhone"
+keyword: "Dxhua, Dxhua Blog, 丁小华的博客, dingxiaohua, 丁小华, Android, Java, c"
 url: "http://Dxhua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Dxhua/Dxhua.github.io.git" # you code repository
@@ -18,11 +18,11 @@ sidebar-avatar: img/avatar-m      # use absolute URL, seeing it's used in both `
 
 # SNS settings
 RSS: false
-# weibo_username:     dingxiaohua
+# weibo_username:     Josshua
 zhihu_username:     Joshua Ding
-github_username:    dingxiaohua
-facebook_username:  baiying.qiu.7
-jianshu_username:   Joshua
+github_username:    Dxhua
+facebook_username:  Joshua ding
+jianshu_username:   0eb7be937e75
 #twitter_username:   dingxiaohua
 
 
@@ -95,7 +95,7 @@ service-worker: true
 friends: [
     {
         title: "Dxhua",
-        href: ""
+        href: "http://github.com/Dxhua"
     },{
         title: "简书·Dxhua",
         href: "http://www.jianshu.com/users/0eb7be937e75/timeline"
