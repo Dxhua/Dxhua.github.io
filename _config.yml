@@ -18,7 +18,7 @@ sidebar-avatar: img/avater.jpg      # use absolute URL, seeing it's used in both
 
 # SNS settings
 RSS: false
- weibo_username:     dxhua1996
+weibo_username:     dxhua1996
 zhihu_username:     hua-shao-71-77
 github_username:    Dxhua
 #facebook_username:  Joshua Ding
