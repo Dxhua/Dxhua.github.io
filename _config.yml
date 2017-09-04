@@ -72,8 +72,8 @@ disqus_username: dxhua
 ba_track_id: 10f4ca6b029ba768838bcdf5dc1a7324
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: auto
+ga_track_id: 'UA-105797785-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
