@@ -94,16 +94,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Dxhua",
-        href: "http://github.com/Dxhua"
+        title: "Zlei",
+        href: "https://github.com/zlei12138"
     },{
-        title: "简书·Dxhua",
-        href: "http://www.jianshu.com/users/0eb7be937e75/timeline"
+        title: "简书·Zlei",
+        href: "http://www.jianshu.com/u/35467f476f6c"
     },{
-        title: "CSDN",
+        title: "CSDN·Dxhua",
         href: "http://blog.csdn.net/dxhua1996"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "博客·Zlei",
+        href: "zlei.top"
     }
 ]
