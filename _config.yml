@@ -92,7 +92,7 @@ service-worker: true
 
 
 # Friends
-友情链接: [ 
+friends: [ 
     {
         title: "Zlei",
         href: "https://github.com/zlei12138"
