@@ -1,0 +1,15 @@
+# Struts框架
+基于MVC设计模式的框架
+![](http://ovt2nfhfc.bkt.clouddn.com/c64e02fe2895ad9f59b5d00f922b41a8.png)
+
+
+
+
+# hibernate
+Hibernate是一个Java ORM开发框架
+ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。
+另一个现在流行的ORM框架是Mybatis。
+而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数
+调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其
+实可以交给ORM自动化地帮我们执行。
+对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！  
