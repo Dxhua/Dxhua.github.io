@@ -15,7 +15,9 @@ tags:                               #标签
 > 欢迎访问我的blog[The Blog of Dxhua](http://dxhua.top)  
 > android中Radiobutton能实现在众多选择中实现单选，是一个很好的控件，在我们平常的开发中很多地方都会涉及到单选择的的场景
 但是要实现单一选择，必须要和RadioGroup结合起来用，只有在一个RadioGrou中的RadioButton才能实现单选，否则每个按钮都是可以选择的。  
-- 下面先贴出RadioButton的代码    
+- 下面先贴出RadioButton的代码   
+
+
 ```
 <RadioGroup
        android:layout_width="match_parent"
@@ -38,6 +40,7 @@ tags:                               #标签
            android:text="微信支付"/>
    </RadioGroup>
 ```       
+
 在上面代码中我在一个RadioGroup中实现了两个RadioButton,分别是支付宝支付和微信支付，在其中android:drawable***方法可以来调整图片的位置，这还可以自己来试试，这里就不一一来展示了，的实现出来的效果如下图所示：  
 ![效果图](http://ovt2nfhfc.bkt.clouddn.com/RadioButton%E5%B1%95%E7%A4%BA%E5%9B%BE.png)  
 在这里就只能单一选择支付方式了，在这里还能讲讲怎么拿到其他apk里面的图片，在我们的日常开发中，我们可能需要某些软件的icon图，  
@@ -50,7 +53,8 @@ tags:                               #标签
 ![zhifubaotupian](http://ovt2nfhfc.bkt.clouddn.com/appicon.png)  
 3.基本的软件都是在res文件中，但是微信有点不同，他的icon图片在r文件中
 ![weinxinneibu](http://ovt2nfhfc.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1apk%E5%86%85%E9%83%A8.png)  
- 好了，题外话说完了，继续我们的支付选择界面，下面附上完整的支付界面layout代码     
+ 好了，题外话说完了，继续我们的支付选择界面，下面附上完整的支付界面layout代码   
+
  ```
  <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -127,6 +131,7 @@ tags:                               #标签
 
 </LinearLayout>
  ```    
+
  这个布局实现的效果如下图：  
  ![支付界面](http://ovt2nfhfc.bkt.clouddn.com/%E6%A8%A1%E6%8B%9F%E6%94%AF%E4%BB%98%E7%95%8C%E9%9D%A2%E6%95%88%E6%9E%9C%E5%9B%BE.png)    
  接下来是一些简单的逻辑书写，实现选择不同的RadioButton实现不同的支付方式    
@@ -192,6 +197,7 @@ public void initView(){
     }
 }
  ```    
+ 
  这样一个简单的支付选择界面就完成了，当然我们也可以加入其它的支付方式  效果如下，选择不同的支付方式，去往不同支付界面  
  ![不选择](http://ovt2nfhfc.bkt.clouddn.com/%E6%9C%AA%E9%80%89%E6%8B%A9%E6%94%AF%E4%BB%98.png)
  ![选择支付宝](http://ovt2nfhfc.bkt.clouddn.com/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98.png)
